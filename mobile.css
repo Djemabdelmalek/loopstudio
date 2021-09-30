@@ -1,0 +1,281 @@
+
+@media only screen and (max-width:375px){
+    @font-face {
+        font-family: Alata;
+        src: url(fonts/Alata/Alata-Regular.ttf);
+    }
+
+    body{
+        width: 375px;
+    }
+    .topsection{
+        background: url(images/mobile/image-hero.jpg);
+        padding: 0px 30px 0px 30px;
+        background-size: contain;
+    }
+    .links{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+        z-index: 100;
+        background: url('images/icon-hamburger.svg');
+        height: 5vh;
+        width: 8vw;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .text{
+        font-size: 2em;
+        border: 2.5px solid hsl(0, 0%, 100%);
+        width: 320px;
+        margin-top: 150px;
+        line-height: 26pt;
+    }
+    .logo{
+        width: 130px;
+        height: 3vh;
+        position: relative;
+        z-index: 100;
+    }
+    .logo img{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        inset: 1;
+    }
+    .midsection{
+        height: 781px;
+        width: 100%;
+        padding: 80px 30px 0px 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    .first{
+        height: 250px;
+        width: 310px;
+        background: url(images/mobile/image-interactive.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .desc{
+        height: 400px;
+        width: 320px;
+        position: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 50px;
+        padding-left: 0px;
+        padding-top: 0px;
+
+    }
+    .pbig{
+        font-family: 'Josefin Sans', sans-serif;
+        text-transform: uppercase;
+        font-size: 2em;
+        margin-bottom: 20px;
+        color:hsl(0, 0%, 0%);
+        font-weight: 400;
+        text-align: center;
+    }
+    .plittle{
+        font-family: Alata;
+        font-size: 1.1em;
+        line-height: 26pt;
+        width:99% ;
+        color: hsl(0, 0%, 55%);
+        text-align: center;
+    }
+    .lastsection{
+        width: 100%;
+        height: 1250px;
+        display: flex;
+        flex-direction: column;
+        padding: 10px 30px 0px 30px;
+        margin-bottom: 50px;
+    }
+    .btn{
+        display: none;
+    }
+    .topdiv{
+        height: 50px;
+        width: 321px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+    .grids{
+        width: 325px;
+        height: 1100px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        row-gap: 20px;
+        column-gap: 0px;
+        margin-bottom: 30px;
+    }
+    .grid1{
+        background: url(images/mobile/image-deep-earth.jpg);
+    }
+    .grid2{
+        background: url(images/mobile/image-night-arcade.jpg);
+    }
+    .grid3{
+        background: url(images/mobile/image-soccer-team.jpg);
+    }
+    .grid4{
+        background: url(images/mobile/image-grid.jpg);
+    }
+    .grid5{
+        background: url(images/mobile/image-from-above.jpg);
+    }
+    .grid6{
+        background: url(images/mobile/image-pocket-borealis.jpg);
+    }
+    .grid7{
+        background: url(images/mobile/image-curiosity.jpg);
+    }
+    .grid8{
+        background: url(images/mobile/image-fisheye.jpg);
+    }
+    .elem{
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 118px;
+        width: 320px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-start;
+        position: relative;
+    }
+    .gridtext{
+        color: white;
+        padding: 0px 0px 20px 20px;
+        font-size: 1.5em;
+        font-family:'Josefin Sans', sans-serif;
+        text-transform: uppercase;
+        width:55%;
+    }
+    .btnbtm{
+        height: 50px;
+        width: 321px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 40px; 
+    }
+    .btnbtm a{
+        border: 2px solid hsl(0, 0%, 41%);
+        border-radius: 2px;
+        color: black;
+        text-decoration: none;
+        padding: 5px 40px 5px 40px;
+        font-size: 1.1em;
+        font-family: Alata;
+        text-transform: uppercase;
+    }
+    .btnbtm a:hover{
+        color: white;
+        background: black;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    footer{
+        height: 400px;
+        width: 375px;
+        background: black;
+        padding: 0px 30px 30px 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .leftside{
+        flex: 4;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        width: 320px;
+        padding-top: 30px;
+    }
+    .flinks{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 20vw;
+        list-style: none;
+        color: hsl(0, 0%, 55%);
+    }
+    .flinks .link{
+        margin-bottom: 15px;
+    }
+    .rightside{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        width: 320px;
+        padding-top: 30px;
+    }
+    .copyright{
+        color: hsl(0, 0%, 41%);
+        font-family:Alata;
+        font-size: 1em;
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+        align-items: center;
+        justify-content: center;
+    }
+    .social{
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+        align-items: center;
+        justify-content: center;
+    }
+    .phonelinks{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        width: 375px;
+        background: black;
+        color: white;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 0px 0px 0px 30px;
+        font-size: 1.5em;
+        font-family: 'Josefin Sans', sans-serif;
+        text-transform: uppercase;
+        list-style: none;
+    }
+    .phonelink{
+        margin-bottom: 40px;
+    }
+    .show{
+        display: none;
+    }
+    .changebg{
+        background: url(images/icon-close.svg);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
